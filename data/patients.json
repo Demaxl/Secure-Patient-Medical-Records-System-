@@ -1,0 +1,12 @@
+[
+  {
+    "Id": "P-1001",
+    "Name": "Alice Smith",
+    "DateOfBirth": "1985-07-12"
+  },
+  {
+    "Id": "P-1002",
+    "Name": "Bayo Ade",
+    "DateOfBirth": "1990-02-03"
+  }
+]

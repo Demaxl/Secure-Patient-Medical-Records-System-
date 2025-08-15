@@ -1,0 +1,20 @@
+[
+  {
+    "Id": "c549acfb77a948869484775b68e13ac9",
+    "Username": "admin1",
+    "PasswordHash": "$2a$11$hi4KYczkDUv1fQAHCe.zSOJwmScuCRRWT.LMGqoAeZqNqMqHe6s1i",
+    "Role": "Admin"
+  },
+  {
+    "Id": "acae605e2b5b452fa404ceae206bbe72",
+    "Username": "doctor1",
+    "PasswordHash": "$2a$11$STD.5FH0P/QcBflc7FPvHeOC09hjRlyuw1obXrJHGAIxK78VaTKcu",
+    "Role": "Doctor"
+  },
+  {
+    "Id": "5fc670da5c624b31b521f3835fc49990",
+    "Username": "nurse1",
+    "PasswordHash": "$2a$11$eQ6UDR/w3VRKs2MsxYRaveRdkvZa8JLYij/iIJkOcazJAp.AWBNmy",
+    "Role": "Nurse"
+  }
+]

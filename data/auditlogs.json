@@ -1,0 +1,66 @@
+[
+  {
+    "LogId": "3442fc97dfdc496babeed4d31c395c5c",
+    "TimestampUtc": "2025-08-15T13:04:08.0118497Z",
+    "Username": "admin1",
+    "Action": "Authenticate",
+    "Success": true,
+    "Details": null
+  },
+  {
+    "LogId": "b613203e6fd14405aede468f36e731e1",
+    "TimestampUtc": "2025-08-15T13:04:44.419918Z",
+    "Username": "admin1",
+    "Action": "Authenticate",
+    "Success": false,
+    "Details": null
+  },
+  {
+    "LogId": "fb328b25365b4438baee45f120938485",
+    "TimestampUtc": "2025-08-15T13:04:53.9672145Z",
+    "Username": "admin",
+    "Action": "Authenticate",
+    "Success": false,
+    "Details": null
+  },
+  {
+    "LogId": "dd9ec6aec1ea4de8ae1b7d1fc7234e5b",
+    "TimestampUtc": "2025-08-15T13:05:07.1743487Z",
+    "Username": "admin1",
+    "Action": "Authenticate",
+    "Success": true,
+    "Details": null
+  },
+  {
+    "LogId": "d66ba99399e14c71b09a2416a33c404e",
+    "TimestampUtc": "2025-08-15T13:05:23.7572258Z",
+    "Username": "nurs1",
+    "Action": "Authenticate",
+    "Success": false,
+    "Details": null
+  },
+  {
+    "LogId": "631b4c68ed3e49cfb3003a5f4ef955ac",
+    "TimestampUtc": "2025-08-15T13:05:32.5653696Z",
+    "Username": "nurse1",
+    "Action": "Authenticate",
+    "Success": true,
+    "Details": null
+  },
+  {
+    "LogId": "609eda14d5794393ac24c8e9620af8ad",
+    "TimestampUtc": "2025-08-15T13:05:49.6503205Z",
+    "Username": "nurse1",
+    "Action": "SearchPatients(\u0027a\u0027)",
+    "Success": true,
+    "Details": null
+  },
+  {
+    "LogId": "a6e2ca56ad00492c84194c636a9715bb",
+    "TimestampUtc": "2025-08-15T13:05:58.7634849Z",
+    "Username": "nurse1",
+    "Action": "SearchPatients(\u0027fwerasr\u0027)",
+    "Success": true,
+    "Details": null
+  }
+]
