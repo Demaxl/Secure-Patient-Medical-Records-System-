@@ -13,9 +13,11 @@
 *.userosscache
 *.sln.docstates
 
+codebase.txt
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-ai_research_prompt.txt
+
 # Mono auto generated files
 mono_crash.*
 
