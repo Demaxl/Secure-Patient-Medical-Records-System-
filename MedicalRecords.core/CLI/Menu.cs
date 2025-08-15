@@ -62,7 +62,7 @@ public class Menu
 
             // Wrap repositories with proxies for RBAC + audit
             var patientProxy = new PatientRepositoryProxy(AuthService.CurrentUser, _patientRepo, new AuditLogService(_auditRepo));
-            var recordProxy  = new MedicalRecordRepositoryProxy(AuthService.CurrentUser, _recordRepo, new AuditLogService(_auditRepo));
+            var recordProxy = new MedicalRecordRepositoryProxy(AuthService.CurrentUser, _recordRepo, new AuditLogService(_auditRepo));
 
             MainMenuLoop(patientProxy, recordProxy, authSvc);
             AuthService.CurrentUser = null;
@@ -89,6 +89,7 @@ public class Menu
             Console.WriteLine("6. Add medical record to patient (Doctor)");
             Console.WriteLine("7. View medical records for patient");
             Console.WriteLine("8. Logout");
+            Console.WriteLine("9. Exit");
             Console.Write("Select option: ");
             var choice = Console.ReadLine();
 
@@ -178,6 +179,11 @@ public class Menu
                     case "8":
                         return;
 
+                    case "9":
+                        Console.WriteLine("Exiting program...");
+                        Environment.Exit(0);
+                        break;
+
                     default:
                         Console.WriteLine("Invalid option.");
                         Pause();
@@ -227,4 +233,4 @@ public class Menu
         Console.WriteLine();
         return pwd;
     }
-} 
+}
